@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The OpsWire</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f8f9fa;
+      color: #212529;
+    }
+    header {
+      background-color: #343a40;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    main {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 1rem;
+      padding: 1rem;
+    }
+    section {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    section h2 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      border-bottom: 2px solid #dee2e6;
+      padding-bottom: 0.25rem;
+    }
+    .rss-feed {
+      font-size: 0.95rem;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 1rem;
+      background-color: #343a40;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The OpsWire</h1>
+    <p>Your daily dose of operations & supply chain insights</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>SCMR – Latest</h2>
+      <div class="rss-feed">
+        <iframe src="https://rss.app/embed/v1/wall/MGZheFh9K7EK0rmt" frameborder="0" width="100%" height="400"></iframe>
+      </div>
+    </section>
+    <section>
+      <h2>Supply Chain Dive</h2>
+      <div class="rss-feed">
+        <iframe src="https://rss.app/embed/v1/wall/vubTG7OrW1LDL7Q8" frameborder="0" width="100%" height="400"></iframe>
+      </div>
+    </section>
+    <section>
+      <h2>MIT Sloan – Operations</h2>
+      <div class="rss-feed">
+        <iframe src="https://rss.app/embed/v1/wall/fT78JpgMWKV0AG2K" frameborder="0" width="100%" height="400"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 The OpsWire | Curated by Karan Bhatt | <a href="#" style="color: #ffc107; text-decoration: underline;">Subscribe</a> (coming soon)
+  </footer>
+</body>
+</html>
